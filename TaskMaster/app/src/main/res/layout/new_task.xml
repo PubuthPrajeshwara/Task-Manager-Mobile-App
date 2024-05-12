@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/TaskTitle"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="0dp"
+        android:background="@null"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_bright"
+        android:text="Title"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/newTaskText"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="0dp"
+        android:background="@null"
+        android:paddingStart="30dp"
+        android:hint="New Task Title"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/Description"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="0dp"
+        android:background="@null"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_bright"
+        android:text="Description"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/newTaskDescription"
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newTaskText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="1dp"
+        android:background="@null"
+        android:paddingStart="30dp"
+        android:hint="New Description"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Priority"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="159dp"
+        android:layout_marginEnd="0dp"
+        android:textStyle="bold"
+        android:background="@null"
+        android:text="Priority"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newTaskDescription"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="307dp"
+        android:text="Low" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newTaskDescription"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="165dp"
+        android:text="Medium" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newTaskDescription"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="46dp"
+        android:text="High" />
+
+    <Button
+        android:id="@+id/newTaskButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newTaskText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="15dp"
+        android:background="@android:color/transparent"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp" />
+
+</RelativeLayout>
