@@ -1,6 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:background="#E1DEDE">
 
     <EditText
         android:id="@+id/TaskTitle"
@@ -11,11 +12,11 @@
         android:layout_marginTop="14dp"
         android:layout_marginEnd="0dp"
         android:background="@null"
-        android:textStyle="bold"
-        android:textColor="@android:color/holo_blue_bright"
         android:text="Title"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="20sp" />
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/newTaskText"
@@ -26,9 +27,10 @@
         android:layout_marginTop="46dp"
         android:layout_marginEnd="0dp"
         android:background="@null"
-        android:paddingStart="30dp"
         android:hint="New Task Title"
+        android:paddingStart="30dp"
         android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColorHint="@color/hintColor"
         android:textSize="20sp" />
 
 
@@ -41,11 +43,11 @@
         android:layout_marginTop="85dp"
         android:layout_marginEnd="0dp"
         android:background="@null"
-        android:textStyle="bold"
-        android:textColor="@android:color/holo_blue_bright"
         android:text="Description"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="20sp" />
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/newTaskDescription"
@@ -56,9 +58,10 @@
         android:layout_marginTop="45dp"
         android:layout_marginEnd="1dp"
         android:background="@null"
-        android:paddingStart="30dp"
         android:hint="New Description"
+        android:paddingStart="30dp"
         android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColorHint="@color/hintColor"
         android:textSize="20sp" />
 
     <EditText
@@ -69,12 +72,12 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="159dp"
         android:layout_marginEnd="0dp"
-        android:textStyle="bold"
         android:background="@null"
         android:text="Priority"
-        android:textColor="@android:color/holo_blue_bright"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="20sp" />
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <CheckBox
         android:id="@+id/checkBox1"
@@ -118,7 +121,7 @@
         android:text="Save"
         android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
-        android:textColor="@android:color/darker_gray"
+        android:textColor="@color/hintColor"
         android:textSize="20sp" />
 
 </RelativeLayout>
