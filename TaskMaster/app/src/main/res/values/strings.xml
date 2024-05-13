@@ -3,4 +3,15 @@
     <string name="save">Save</string>
     <string name="new_task">New Task</string>
     <string name="tasks">Tasks</string>
+    <string name="title">Title</string>
+    <string name="titleHint">New Task Title</string>
+    <string name="description">Description</string>
+    <string name="descriptionHint">New Description</string>
+    <string name="priority">Priority</string>
+    <string name="priority1">Low</string>
+    <string name="priority2">Medium</string>
+    <string name="priority3">High</string>
+    <string name="savetask">Save</string>
+    <string name="searchTask">Search Task Here</string>
+    <string name="head">Task Master</string>
 </resources>

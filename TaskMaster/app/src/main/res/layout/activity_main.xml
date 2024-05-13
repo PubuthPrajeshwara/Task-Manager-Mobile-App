@@ -16,7 +16,7 @@
         android:layout_marginEnd="93dp"
         android:layout_marginBottom="16dp"
         android:fontFamily="@font/lemon"
-        android:text="Task Master"
+        android:text="@string/head"
         android:textColor="@android:color/holo_blue_bright"
         android:textSize="32sp"
         android:textStyle="bold" />
@@ -30,7 +30,7 @@
         android:layout_marginTop="78dp"
         android:layout_marginEnd="56dp"
         android:background="@drawable/border_color"
-        android:hint="Search Task Here"
+        android:hint="@string/searchTask"
         android:paddingStart="70dp"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="@android:color/white"

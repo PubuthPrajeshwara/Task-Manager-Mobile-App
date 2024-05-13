@@ -12,7 +12,7 @@
         android:layout_marginTop="14dp"
         android:layout_marginEnd="0dp"
         android:background="@null"
-        android:text="Title"
+        android:text="@string/title"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="@android:color/holo_blue_bright"
         android:textSize="20sp"
@@ -27,7 +27,7 @@
         android:layout_marginTop="46dp"
         android:layout_marginEnd="0dp"
         android:background="@null"
-        android:hint="New Task Title"
+        android:hint="@string/titleHint"
         android:paddingStart="30dp"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColorHint="@color/hintColor"
@@ -43,7 +43,7 @@
         android:layout_marginTop="85dp"
         android:layout_marginEnd="0dp"
         android:background="@null"
-        android:text="Description"
+        android:text="@string/description"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="@android:color/holo_blue_bright"
         android:textSize="20sp"
@@ -58,7 +58,7 @@
         android:layout_marginTop="45dp"
         android:layout_marginEnd="1dp"
         android:background="@null"
-        android:hint="New Description"
+        android:hint="@string/descriptionHint"
         android:paddingStart="30dp"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColorHint="@color/hintColor"
@@ -73,7 +73,7 @@
         android:layout_marginTop="159dp"
         android:layout_marginEnd="0dp"
         android:background="@null"
-        android:text="Priority"
+        android:text="@string/priority"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textColor="@android:color/holo_blue_bright"
         android:textSize="20sp"
@@ -87,7 +87,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="307dp"
-        android:text="Low" />
+        android:text="@string/priority1" />
 
     <CheckBox
         android:id="@+id/checkBox2"
@@ -97,7 +97,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="47dp"
         android:layout_marginEnd="165dp"
-        android:text="Medium" />
+        android:text="@string/priority2" />
 
     <CheckBox
         android:id="@+id/checkBox3"
@@ -107,7 +107,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="47dp"
         android:layout_marginEnd="46dp"
-        android:text="High" />
+        android:text="@string/priority3" />
 
     <Button
         android:id="@+id/newTaskButton"
@@ -118,7 +118,7 @@
         android:layout_marginTop="174dp"
         android:layout_marginEnd="15dp"
         android:background="@android:color/transparent"
-        android:text="Save"
+        android:text="@string/savetask"
         android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textColor="@color/hintColor"
